@@ -1,0 +1,24 @@
+# Keil 构建产物
+*.o
+*.d
+*.axf
+*.hex
+*.map
+*.lst
+*.crf
+*.dep
+*.lnp
+*.htm
+**/MDK-ARM/*/
+
+# 个人界面状态与日志
+*.uvguix.*
+*.log
+
+# CubeMX 生成的大体积库，用 .ioc 能重新生成
+**/Drivers/CMSIS/DSP/
+**/Drivers/CMSIS/Lib/
+
+# 系统文件
+Thumbs.db
+desktop.ini
